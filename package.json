@@ -4,7 +4,8 @@
   "description": "Full Prisma Tutorial CRUD, Associations...",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,12 @@
   },
   "homepage": "https://github.com/nghiant1996/Prisma-Tutorial#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mysql2": "^3.6.1",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.3.1",
+    "prisma": "^5.3.1"
   }
 }
